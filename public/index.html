@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Secrets</title> <!-- Title of the webpage -->
+</head>
+
+<body>
+  <h1>Secrets</h1> <!-- Heading of the webpage -->
+
+  <!-- Form for submitting a password -->
+  <form action="/check" method="POST"> <!-- The 'action' attribute specifies where to send the form data when submitted. The 'method' attribute specifies the HTTP method to be used (POST in this case). -->
+    <label for="password">Password:</label> <!-- Label for the password input field -->
+    <input type="text" id="password" name="password" required> <!-- Input field for entering the password. 'id' and 'name' attributes are used to identify the input field. 'required' attribute specifies that the field must be filled out before submitting the form. -->
+    <input type="submit" value="Submit"> <!-- Submit button to submit the form -->
+  </form>
+
+</body>
+
+</html>
